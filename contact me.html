@@ -4,25 +4,50 @@
 <head>
   <meta charset="utf-8">
   <title>my contact</title>
+  <link rel="stylesheet" href="css/style.css">
 </head>
 
 <body>
-  <h3> my contact details</h3>
-  <ul>
-    <li><a href="https://twitter.com/Da_7inci" target="_blank">twitter 🐦</a></li>
-    <li><a href="https://www.facebook.com/mostafa.dahy.967#">facebook </a></li>
+  <style media="screen">
+    h1 {
+      text-align: center;
+    }
 
-  </ul>
+    .contact {
+      align-self: right;
+    }
+  </style>
+
+  <h1> my contact details</h1>
+
+  <table>
+    <tr>
+      <td> <a class="twitter_name" href="https://twitter.com/Da_7inci" target="_blank"><img class="twitter_name" src="https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Twitter_logo.svg/800px-Twitter_logo.svg.png" alt="twitter-name"></a></td>
+      <td> <a class="twitter_logo" href="https://twitter.com/Da_7inci" target="_blank" class="twitter_logo"> <img class="twitter_logo"
+            src="https://1.bp.blogspot.com/-55fpLgKPKes/XDdCf4cUeXI/AAAAAAAAGuo/9qHXKKXQ1s8f9DlG5GqL8LemRZSAy3vEwCK4BGAYYCw/s1600/logo%2Btwitter.png" alt="twitter_logo"> </a> </td>
+      <td> <a class="facebook_name" href="https://www.facebook.com/mostafa.dahy.967#" target="_blank"><img class="facebook_name" src="https://www.logo.wine/a/logo/Facebook/Facebook-Logo.wine.svg" alt="facebook"> </a> </td>
+    </tr>
+  </table>
+
+
 
   <hr>
 
   <form class="" action="mailto:joe@example.com? subject=feedback" method="post" enctype="text/plain">
-    <label for="">Your name:</label>
-    <input type="text" name="Your name" value="">
-    <br>
-    <label for="">your email</label>
-    <input type="email" name="your email" value=""><br>
-    <label for="">your massage:</label><br>
+    <table>
+      <tr>
+        <td> <label for="">Your name:</label> </td>
+        <td> <input type="text" name="Your name" value=""></td>
+      </tr>
+      <tr>
+        <td> <label for="">Your email:</label></td>
+        <td> <input type="email" name="your email" value=""><br></td>
+      </tr>
+      <tr>
+        <td><label for="">Your massage:</label></td>
+      </tr>
+    </table>
+
     <textarea name="your message" rows="8" cols="30"></textarea><br>
     <input type="submit" name="">
 
